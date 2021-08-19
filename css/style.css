@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+body {
+    margin: 0;
+}
+
+#header {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    float: left;
+}
+
+#float1 {
+    float: left;
+    margin-right: 800px;
+    margin-left: 200px;
+}
+
+#float2 {
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgba(93, 206, 250, 1);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#s-header {
+    width: 100%;
+    height: 635px;
+    background-image: url(../Images/muriel-gargre-fRBdm7k_I0Q-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#maRecherche {
+    width: 200px;
+    height: 19px;
+    /* margin-top: 135px; */
+}
+
+.Inscription {
+    background-color: rgba(93, 206, 250, 1);
+    display: inline-block;
+    font-size: 16px;
+    border: 0px;
+    padding: 3px;
+    color: white;
+}
+
+.icon-moniteur {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.text-j {
+    text-align: justify;
+}
+
+.texte_centrer {
+    color: white;
+    font-size: 25px;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    padding-top: 250px;
+}
+
+.texte__centrer {
+    color: white;
+    font-size: 25px;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#space {
+    margin-bottom: 50px;
+}
+
+.css-desc {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: -5px;
+}
+
+#description {
+    float: left;
+    background-color: #F8F9FB;
+    opacity: 0.8;
+    width: 100%;
+}
+
+.footer-img {
+    width: 100%;
+    height: 400px;
+}
+
+.footer-img-t {
+    position: relative;
+    bottom: 0;
+    top: -200px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.desc-1 {
+    /* float: left; */
+    margin-left: 80px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#Iphone {
+    float: left;
+}
+
+.colo-r {
+    background-color: yellow;
+    width: 100;
+    height: 100;
+}
+
+.rotation90 {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.img-size {
+    width: 100px;
+    height: 100px;
+}
+
+.i-m-center {
+    margin-bottom: 500px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.img-footer {
+    width: 100%;
+    height: 290px;
+}
+
+.class-footer {
+    position: relative;
+    bottom: 0;
+    top: -200px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.children-c {
+    width: 50%;
+    float: right;
+    margin-top: -5px;
+}
+
+.picture-size-t {
+    width: 100%;
+    height: 100%;
+}
+
+.right-middle {
+    width: 50%;
+    float: right;
+}
+
+.item-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-1-1 {
+    width: 50%;
+    margin: auto;
+}
+
+.width-h {
+    width: 50%;
+}
+
+.width-h50 {
+    width: 50%;
+    margin: auto;
+}
+
+.testimonial {
+    background-color: #DCE8ED;
+    padding-top: 40px;
+}
+
+.testi-m {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.size-img {
+    width: 100px;
+    height: 100px;
+}
+
+.item-2 {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.item-3 {
+    width: 50%;
+    float: right;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.item-4 {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 180px;
+}
+
+.text-j-c {
+    text-align: justify center;
+}
+
+.start {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.connexion-button {
+    text-align: center;
+    background-color: rgba(93, 206, 250, 1);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.form- {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.inpu-t {
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+}
+
+.reseau-sociaux {
+    float: right;
+    margin-top: 30px;
+    margin-right: 70px;
+}
+
+.text-footer {
+    float: left;
+    color: #5dcefa;
+    font-family: Titillium Web;
+}
+
+.family-color {
+    font-family: Titillium Web;
+    color: aliceblue;
+    margin-bottom: 500px;
+}
+
+.sect {
+    margin-top: 100px;
+}
+
+.text-elem {
+    float: left;
+    margin: 10px;
+}
+
+.space-left {
+    padding-left: 132px;
+}
+
+.politique {
+    color: rgb(38, 38, 38);
+    margin-left: 90px;
+}
+
+.footer-1 {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    float: left;
+    margin-top: -70px;
+}
+
+.reseau-link {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.footer-reseau {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ul-list {
+    list-style: none;
+    line-height: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #5dcefa;
+    font-family: Titillium Web;
+}
+
+.ul-list li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.other {
+    text-align: left;
+    margin-left: 37px;
+    line-height: 5px;
+}
+
+.image-bckg {
+    width: 100%;
+    height: 435px;
+    background-image: url(../Images/muriel-gargre-fRBdm7k_I0Q-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.margin-s {
+    margin-top: 15px;
+}
+
+.link- {
+    padding-left: 132px;
+}
+
+.color- {
+    color: rgb(38, 38, 38);
+    margin-left: 90px;
+}
+
+@media only screen and (max-width: 800px) {
+    .icon-moniteur {
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+    .text-j {
+        text-align: justify center;
+    }
+    .mp {
+        margin: auto;
+    }
+    .item-1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .width-h50 {
+        width: 100%;
+        margin: auto;
+    }
+    .width-h {
+        width: 100%;
+    }
+    .pm {
+        display: flex;
+        flex-direction: column;
+    }
+    .item-1-1 {
+        width: 100%;
+        margin: auto;
+    }
+    .testi-m {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .reseau-ll {
+        display: flex;
+        justify-content: space-around;
+        color: #5dcefa;
+        font-family: Titillium Web;
+    }
+    .reseau-l {
+        width: 100%;
+        height: 50px;
+        background-color: white;
+        /* line-height: 2em; */
+    }
+    .link- {
+        padding: 0px;
+    }
+    .color- {
+        color: rgb(38, 38, 38);
+        margin: 0px;
+    }
+    .reseau-sociaux {
+        margin: 0px;
+    }
+    .reseau-lll {
+        margin: 0px;
+    }
+    .reseau-link {
+        width: 30px;
+        height: 30px;
+        /* margin-right: 15px; */
+    }
+    .footer-reseau {
+        display: flex;
+        flex-direction: column;
+    }
+    .other {
+        text-align: center;
+        font-size: 14px;
+        line-height: 5px;
+    }
+    .ul-list {
+        line-height: 50px;
+        font-size: 14px;
+        line-height: 5px;
+    }
+    a {
+        text-decoration: none;
+        color: #5dcefa;
+        font-family: Titillium Web;
+    }
+    .ul-list li {
+        margin-right: 10px;
+    }
+}
